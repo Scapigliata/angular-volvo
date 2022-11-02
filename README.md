@@ -1,6 +1,10 @@
 # VolvoCars
 
+Hosting: Firebase
+Visit https://volvo-fe.web.app/ 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+A frontend project built using angular cli, based on the current state of Volvocars.com/se. 
 
 ## Development server
 
@@ -32,4 +36,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Preview 
 
-![alt text](https://github.com/scapigliata/angular-volvo/blob/main/fe-full.jpg?raw=true)
+![FE-full](https://github.com/scapigliata/angular-volvo/blob/main/src/assets/fe-full.png?raw=true)
+
