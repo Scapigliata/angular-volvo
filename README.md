@@ -28,4 +28,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Preview 
 
-![alt text](https://github.com/scapigliata/angular-volvo/blob/main/fe-full.jpg?raw=true)
+![FE-full](https://github.com/scapigliata/angular-volvo/blob/main/fe-full.png?raw=true)
+
