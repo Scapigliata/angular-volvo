@@ -61,6 +61,10 @@
           "defaultConfiguration": "production"
         },
         "serve": {
+          "options": {
+            "host": "volvocars.se",
+            "port": 4200
+          },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {

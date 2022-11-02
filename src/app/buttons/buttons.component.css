@@ -1,0 +1,12 @@
+
+a {
+    padding: 8px 20px;
+    border: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
