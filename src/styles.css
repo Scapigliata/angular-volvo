@@ -48,6 +48,7 @@ p {
 .content {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
 }
 
@@ -248,38 +249,6 @@ svg#clouds {
   margin: 80px 20px 70px 20px;
   text-transform: capitalize;
   text-align: center;
-}
-
-/* Responsive Styles */
-@media screen and (max-width: 767px) {
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .card-container > *:not(.circle-link),
-  .terminal {
-    width: 100%;
-  }
-
-  .card:not(.highlight-card) {
-    margin: 8px 0;
-  }
-
-  .card.highlight-card span {
-    margin-left: 72px;
-  }
-
-  svg#rocket-smoke {
-    right: 120px;
-    transform: rotate(-5deg);
-  }
-}
-
-@media screen and (max-width: 575px) {
-  svg#rocket-smoke {
-    display: none;
-    visibility: hidden;
-  }
 }
 
 .logo {
@@ -523,4 +492,86 @@ svg#clouds {
   font-weight: 300;
   font-size: 12px;
   padding-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-container > *:not(.circle-link),
+  .terminal {
+    width: 100%;
+  }
+
+  .card:not(.highlight-card) {
+    margin: 8px 0;
+  }
+
+  .card.highlight-card span {
+    margin-left: 72px;
+  }
+
+  svg#rocket-smoke {
+    right: 120px;
+    transform: rotate(-5deg);
+  }
+  .shortcuts button {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  .shortcuts button:last-of-type {
+    border-bottom: 1px solid #eee;
+  }
+
+  .cars .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .spacer {
+    flex: none;
+  }
+
+  .button {
+    padding: 5px 10px;
+  }
+
+  .image-block h2:first-of-type {
+    font-size: 14px;
+  }
+
+  .image-block p {
+    font-size: 12px;
+  }
+
+  .hero-content h1 {
+    font-size: 49px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  svg#rocket-smoke {
+    display: none;
+    visibility: hidden;
+  }
+
+  .button {
+    padding: 5px;
+  }
+
+  .image-block h2:first-of-type {
+    font-size: 10px;
+  }
+
+  .image-block p,
+  .button {
+    font-size: 8px;
+  }
+  .hero-content h1 {
+    font-size: 40px;
+    text-align: center;
+  }
 }
